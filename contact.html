@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elegant</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/0983a48497.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><i class="fas fa-dove"></i></a>
+        <h4>Elegant</h4>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Account</a></li>
+        <li>
+          <a id="cart" href="#"><i class="fas fa-shopping-cart"></i></a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <div class="contact">
+      <div class="contact-title">Contact Us</div>
+      <form action="contact.html">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="johndoe" />
+        <label for="fullname">Order Number</label>
+        <input type="text" id="fullname" name="fullname" placeholder="123456789" />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="example@example.com" />
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" />
+        <label for="problems">Problems</label>
+        <input type="text" list="problems" />
+        <datalist id="problems">
+          <option value="Shipping"></option>
+          <option value="Damaged Item"></option>
+          <option value="Credit Decline"></option>
+        </datalist>
+        <textarea name="info" id="info" placeholder="what's happening?" rows="10"></textarea>
+        <div class="buttons">
+          <input type="submit" />
+          <input type="reset" />
+        </div>
+      </form>
+    </div>
+    <div class="footer">
+      <div class="about">
+        <div class="about-us" id="about">About Us</div>
+        <p>Welcome to Elegant, your number one source for all things and products.</p>
+        <p>
+          We're dedicated to providing you the very best of products, with an emphasis on elegant
+          design, cheap and beautiful.
+        </p>
+        <br />
+        <p>We hope you enjoy our products as much as we enjoy offering them to you.</p>
+        <br />
+      </div>
+      <div class="footer-nav">
+        <div class="socials">Socials</div>
+        <ul>
+          <li><i class="fab fa-instagram"></i> Instagram</li>
+          <li><i class="fab fa-snapchat-ghost"></i> Snapchat</li>
+          <li><i class="fab fa-facebook-f"></i> Facebook</li>
+        </ul>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
